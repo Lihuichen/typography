@@ -1,0 +1,52 @@
+/* Embedded Fonts */
+
+
+@font-face {
+		font-family: blah;
+		src: url(../fonts/sketchy.ttf);
+	}
+
+<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
+/* Container Items */
+
+html,body {
+	height:100%;
+	width:100%;
+	
+}
+
+#cover {
+width:100%;
+height:100%;
+background: url("../images/cover.jpg") no-repeat center fixed;
+-webkit-background-size: cover;
+}
+
+#container {
+
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+	font-family: blah;
+	font-size: 150px
+}
+
+.author {
+
+}
+
+
+
+
+.text {
+	font-family: 'Libre Barcode 39 Text', cursive;
+
+
+.italic {
+	font-style: italic;
+	
+}
